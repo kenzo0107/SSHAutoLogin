@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# Auto Login By SSH
+
 SITE_ALIAS=$1
 ENV=$2
 echo "SITE_ALIAS:${SITE_ALIAS}"
