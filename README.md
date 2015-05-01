@@ -5,12 +5,17 @@
 
 * サイトエイリアスと環境名を指定してsshログインするシェルです。
 
-### 使い方
+
+#### 使い方
 
 `sh al.sh <project_alias> <接続環境 (dev|tst|stg|prd)>`
 
+
 * ex) mameko のテスト環境に接続
+
 `sh al.sh mameko tst`
+
+
 
 
 ## ac.sh (Auto aCcount)
@@ -22,7 +27,7 @@
 `sh ac.sh <project_alias> <接続環境 (dev|tst|stg|prd)>`
 
 
-* ex= mameko の商用環境情報表示
+* ex) mameko の商用環境情報表示
 
 `sh ac.sh mameko tst`
 
