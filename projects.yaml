@@ -1,19 +1,27 @@
+# サイトエイリアス
 mameko :
+  # プロジェクト名
   project : mamekorun2.5d-project
+
+  # テスト環境 : Testing.
   tst : 
     ip : xxx.xxx.xxx.xx
     id : <login id>
     pw : <login passwd>
     pt : <ポート>
     to : <ドキュメントルート>
+
     # digest認証.
     digest : 
       id : <digest認証アカウントID>
       pw : <digest認証アカウントPW>
+
     # 管理画面.
     admin :
       id : <管理画面アカウントID>
       pw : <管理画面アカウントPW>
+
+    # DB
     db :
       ip : <DBサーバIP>
       id : <DBサーバログインID>
@@ -23,3 +31,30 @@ mameko :
       dbuser : <DBユーザ>
       dbpass : <DBパスワード>
 
+  # 商用環境 : Production.
+  prd :
+    ip : xxx.xxx.xxx.xx
+    id : <login id>
+    pw : <login passwd>
+    pt : <ポート>
+    to : <ドキュメントルート>
+
+    # digest認証.
+    digest :
+      id : <digest認証アカウントID>
+      pw : <digest認証アカウントPW>
+
+    # 管理画面.
+    admin :
+      id : <管理画面アカウントID>
+      pw : <管理画面アカウントPW>
+
+    # DB
+    db :
+      ip : <DBサーバIP>
+      id : <DBサーバログインID>
+      pw : <DBサーバログインPW>
+      pt : <DBサーバログインポート>
+      dbname : <DB名>
+      dbuser : <DBユーザ>
+      dbpass : <DBパスワード>
