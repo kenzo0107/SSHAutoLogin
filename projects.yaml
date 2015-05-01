@@ -1,0 +1,25 @@
+mameko :
+  project : mamekorun2.5d-project
+  tst : 
+    ip : xxx.xxx.xxx.xx
+    id : <login id>
+    pw : <login passwd>
+    pt : <ポート>
+    to : <ドキュメントルート>
+    # digest認証.
+    digest : 
+      id : <digest認証アカウントID>
+      pw : <digest認証アカウントPW>
+    # 管理画面.
+    admin :
+      id : <管理画面アカウントID>
+      pw : <管理画面アカウントPW>
+    db :
+      ip : <DBサーバIP>
+      id : <DBサーバログインID>
+      pw : <DBサーバログインPW>
+      pt : <DBサーバログインポート>
+      dbname : <DB名>
+      dbuser : <DBユーザ>
+      dbpass : <DBパスワード>
+
