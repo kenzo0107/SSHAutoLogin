@@ -4,14 +4,14 @@
 
 SITE_ALIAS=$1
 ENV=$2
-echo "SITE_ALIAS:${SITE_ALIAS}"
 CONFIG="projects.yaml"
 
 PROJECT=$(ruby -ryaml -e "puts YAML.load(open('${CONFIG}').read)['${SITE_ALIAS}']['project']")
 IP=$(ruby -ryaml -e "puts YAML.load(open('${CONFIG}').read)['${SITE_ALIAS}']['${ENV}']['ip']")
 ID=$(ruby -ryaml -e "puts YAML.load(open('${CONFIG}').read)['${SITE_ALIAS}']['${ENV}']['id']")
 PW=$(ruby -ryaml -e "puts YAML.load(open('${CONFIG}').read)['${SITE_ALIAS}']['${ENV}']['pw']")
- 
+
+echo "\nconnect to ${PROJECT} : ${ENV} ...\n" 
 
 expect -c "
 set timeout 10
