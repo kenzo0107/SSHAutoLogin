@@ -1,5 +1,5 @@
 # SSHAutoLogin
-リモートサーバから設定ファイル(yaml)を読み込み、SSHでログインする
+リモートサーバから設定ファイル(projects.yaml)を読み込み、SSHでログインする
  
  
 ## al.sh (Auto Login)
@@ -12,9 +12,9 @@
 `sh al.sh <project_alias> <接続環境 (dev|tst|stg|prd)>`
  
  
-* ex) mameko のテスト環境に接続
+* ex) Cole Haan のテスト環境に接続
 
-`sh al.sh mameko tst`
+`sh al.sh ch tst`
  
  
  
@@ -29,7 +29,7 @@
 `sh ac.sh <project_alias> <接続環境 (dev|tst|stg|prd)>`
  
  
-* ex) mameko の商用環境情報表示
+* ex) 3.1 Philliplim の商用環境情報表示
 
-`sh ac.sh mameko tst`
+`sh ac.sh pl tst`
 
