@@ -1,6 +1,10 @@
 #!/bin/sh
 
-# Auto Login By SSH
+# Auto Login via SSH
+#
+# ex)
+# sh al.sh mameko test
+
 
 SITE_ALIAS=$1
 ENV=$2

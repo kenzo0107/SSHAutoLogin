@@ -1,5 +1,10 @@
 #!/bin/sh
 
+# Show Account Info
+#
+# ex)
+# sh ac.sh mameko test
+
 SITE_ALIAS=$1
 ENV=$2
 CONFIG="projects.yaml"
