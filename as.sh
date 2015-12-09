@@ -1,6 +1,9 @@
 #!/bin/sh
 
-# Auto Download By SCP
+# Auto Download via SCP
+#
+# ex)
+# sh as.sh mameko test /home/centos/tmp.conf ~/tmp/
 
 SITE_ALIAS=$1
 ENV=$2
